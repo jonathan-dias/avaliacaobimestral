@@ -1,0 +1,71 @@
+<html>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <div class="background">
+        <header>
+            <div class="topo">
+                <div class="logo">
+                    <p>Logo Livro</p>
+                </div>
+
+                <div class="banner">
+                    <p>Banner</p>
+                </div>
+
+                <div class="login">
+                    <p>Login</p>
+                    <p>Sign-out</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <nav class="side_menu">
+                    <ul>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+			<div style="text-align: center;" class="titulo">
+				<div>
+				<p>Cadastro de livros</p>
+				</div>
+			</div>
+            <div class="conteudo">
+
+                <div class="conteudo_cadastro">
+                    <form>
+						<div class="formulario">
+                        <label>Titulo</label>
+						<input style="margin-left: 100px;" type="text" name="titulo"><br>
+						
+						<label style="margin-right: 100px;">Autor</label> <input type="text" name="nome"> <input type="text" name="sobrenome"><br>
+						
+						<label style="margin-right: 100px;">Origem</label>  
+						<input type="radio" name="nacional"> Nacional <input type="radio" name="internacional"> Internacional <br>
+							<label>Genero</label> 
+							<select>
+                                <option>Romance</option>
+                                <option>Ficção</option>
+                                <option>Aventura</option>
+                            </select><br>
+							<label>Publicação</label> 
+							<input id="date" type="date"><br>
+                        <button type="button">Salvar</button> <button type="button">Cancelar</button>
+						<div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+        </footer>
+    </div>
+</body>
+
+</html>
